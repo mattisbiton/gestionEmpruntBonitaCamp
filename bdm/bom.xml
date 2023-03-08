@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.15.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.DemandePret">
+            <fields>
+                <field type="LONG" length="255" name="idDemandeur" nullable="false" collection="false"/>
+                <field type="BOOLEAN" length="255" name="estApprouvee" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="telephone" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="mail" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="capaciteEmprunt" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="dureeEmprunt" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="salaire" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="loyer" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="charge" nullable="false" collection="false"/>
+                <field type="TEXT" length="255" name="justification" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="autreRevenus" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="montantChoisi" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="fichier" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="montantRemboursement" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
